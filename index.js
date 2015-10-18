@@ -1,5 +1,11 @@
 var path = require('path');
-var entryPoint = require.resolve('font-awesome');
+
+// Would LOVE to use this but since font-awesome
+// doesn't even provide a "main" in their package.json
+// I unfortunately cannot:
+// var entryPoint = require.resolve('font-awesome');
+// And instead must resort to this hacky code:
+var entryPoint = path.resolve(path.join('node_modules', 'font-awesome', 'index.js'))
 
 var faDir = path.dirname(entryPoint);
 
