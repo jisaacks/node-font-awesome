@@ -11,10 +11,10 @@ npm install node-font-awesome --save-dev
 
 ## API 
 
-__scssPath__: path to scss directory for adding as import path
-__lessPath__: path to less directory for adding as import path
-__css__: path to `font-awesome.css` file.
-__fonts__: glob path to all files in fonts directory.
+* __scssPath__: path to scss directory for adding as import path
+* __lessPath__: path to less directory for adding as import path
+* __css__: path to `font-awesome.css` file.
+* __fonts__: glob path to all files in fonts directory.
 
 
 ## Usage
