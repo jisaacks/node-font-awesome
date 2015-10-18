@@ -1,0 +1,30 @@
+{
+  "name": "node-font-awesome",
+  "version": "1.0.0",
+  "description": "Font Awesome wrapper to make serveable from node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jisaacks/node-font-awesome.git"
+  },
+  "keywords": [
+    "font",
+    "awesome",
+    "fontawesome",
+    "browserify",
+    "sass",
+    "less"
+  ],
+  "author": "JD Isaacks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jisaacks/node-font-awesome/issues"
+  },
+  "homepage": "https://github.com/jisaacks/node-font-awesome#readme",
+  "dependencies": {
+    "font-awesome": "^4.4.0"
+  }
+}
