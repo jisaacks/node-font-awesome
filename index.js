@@ -3,7 +3,7 @@ var entryPoint = require.resolve('font-awesome');
 
 var faDir = path.dirname(entryPoint);
 
-var pkg = path.join(faDir, 'package.json');
+var pkg = require(path.join(faDir, 'package.json'));
 
 // SASS/LESS directory for import paths
 var scssDir = path.join(faDir, 'scss');
