@@ -2,6 +2,13 @@
 
 Simple font awesome wrapper to allow serving from node.
 
+## Install
+
+```shell
+npm install font-awesome --save
+npm install node-font-awesome --save-dev
+```
+
 ## API 
 
 __scssPath__: path to scss directory for adding as import path
