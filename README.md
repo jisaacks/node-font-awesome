@@ -19,7 +19,17 @@ npm install node-font-awesome --save-dev
 
 ## Usage
 
-### Moving Fonts:
+### In your SCSS file
+
+Don't forget to import Font Awesome in your SCSS file (in this example, that's `./sass/main.scss`).
+
+```scss
+/* ... */
+@import "font-awesome.scss";
+/* ... */
+```
+
+### Moving Fonts
 
 ```javascript
 var gulp = require('gulp');
